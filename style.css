@@ -45,7 +45,7 @@ font-weight: 700;
 }
 
 #cart{
-    color: #000000;
+color: #000000;
 }
 
 
@@ -95,6 +95,8 @@ font-weight: 700;
     opacity: 50%;
     font-size: 22px;
 }
+
+
 /* hero section style end */
 
 /* card section start */
@@ -102,7 +104,7 @@ font-weight: 700;
 .card{
     max-width: 1140px;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 60px;
     
 }
 
@@ -140,9 +142,17 @@ font-weight: 700;
     text-align: center;
 }
 
+#product-name{
+    font-weight: 400;
+}
+
+#product-price{
+    font-weight: 700;
+}
+
 .add-to-cart{
     background-color: #E95A08;
-    padding: 19px 80px;
+    padding: 19px 88px;
     color: white;
     border: none;
     margin-top: 20px;
@@ -183,12 +193,14 @@ font-weight: 700;
 }
 
 .hero-sec{
+    max-width: 100%;
     flex-direction: column;
+    
 }
 
 .hero-detail{
     order: 1;
-    margin: 28px 16px auto 16px;
+    margin: 28px 14px auto 14px;
 }
 
 .hero-detail h1{
@@ -197,17 +209,15 @@ font-weight: 700;
 
 .hero-detail p{
     font-size: 14px;
-    margin-top: 13px;
+    margin-top: 12px;
 }
 
-.hero-img{
-    max-width: 100%;
-}
 
 
 .card{
-    margin-top: 50px;
     max-width: 100%;
+    /* display: none; */
+    
 }
 
 .card-title h1{
@@ -223,20 +233,24 @@ font-weight: 700;
 
 .products{
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px 20px;
+    gap: 30px 5px;
     max-width: 100%;
-    margin: auto 15px;
+    /* margin: auto 15px; */
     
 }
 
 .add-to-cart{
-    padding: 19px 30px;
-    font-size: 16px;
+    padding: 15px 95px;
+    font-size: 12px;
 }
 
 #product-name, #product-price{
     font-size: 16px;
 }
+
+
+
+
 
 
 }
