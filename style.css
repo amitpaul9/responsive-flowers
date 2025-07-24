@@ -98,8 +98,9 @@ font-weight: 700;
 /* hero section style end */
 
 /* card section start */
+
 .card{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 120px;
     
@@ -119,10 +120,35 @@ font-weight: 700;
     font-size: 22px;
     color: #000000;
     opacity: 50%;
+    margin-top: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
 }
 
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    gap: 30px 20px;
+    text-align: center;
+}
 
+#product-name, #product-price{
+    color: #111111;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
 
+.add-to-cart{
+    background-color: #E95A08;
+    padding: 19px 80px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
 
 /* card section ends */
 
@@ -173,6 +199,37 @@ font-weight: 700;
     font-size: 14px;
     margin-top: 13px;
 }
+
+.hero-img{
+    max-width: 100%;
+}
+
+
+.card{
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.card-title h1{
+    font-size: 24px;
+}
+
+.card-title p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 28px 28px 28px;
+}
+
+
+.products{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 20px;
+    max-width: 100%;
+    margin: auto 15px;
+    display: none;
+}
+
+
 
 
 
