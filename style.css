@@ -25,9 +25,19 @@
 
 .nav-items ul li{
     list-style: none;
-    color: #8987A1;
     font-family: "Inter", sans-serif;
 }
+
+#about-us, #shop{
+     color: #8987A1;
+     opacity: 50%;
+}
+
+
+.nav-items ul li a{
+    text-decoration: none;
+}
+
 
 #home{
 color: #252432;
@@ -37,6 +47,28 @@ font-weight: 700;
 #cart{
     color: #000000;
 }
+
+
+#home a:visited{
+    color: #252432;
+}
+
+#cart a:visited{
+    color: #000000;
+}
+
+
+#about-us a:visited{
+ color: #8987A1;
+}
+
+#shop a:visited{
+ color: #8987A1;
+}
+
+
+
+
 /* navbar style end */
 
 /* hero section style start */
@@ -56,9 +88,6 @@ font-weight: 700;
     font-size: 65px;
 }
 
-#orange-txt{
-    color: #E95A08;
-}
 
 .hero-detail p{
     font-family: "Inter", sans-serif;
@@ -66,12 +95,48 @@ font-weight: 700;
     opacity: 50%;
     font-size: 22px;
 }
-
 /* hero section style end */
 
+/* card section start */
+.card{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-title h1{
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
+
+.card-title p{
+    font-size: 22px;
+    color: #000000;
+    opacity: 50%;
+}
 
 
 
+
+/* card section ends */
+
+
+
+
+
+
+
+/* shared codes */
+
+#orange-txt{
+    color: #E95A08;
+}
 
 
 /* mobile device mediaquary */
