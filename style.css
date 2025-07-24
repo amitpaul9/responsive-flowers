@@ -6,6 +6,7 @@
 /* navbar style start */
 
 .navbar{
+    max-width: 1140px;
     display: flex;
     justify-content: space-between;
     margin: 0 150px 120px 150px;
@@ -144,10 +145,12 @@ color: #000000;
 
 #product-name{
     font-weight: 400;
+    margin-top: 20px;
 }
 
 #product-price{
     font-weight: 700;
+    margin-top: 10px;
 }
 
 .add-to-cart{
@@ -162,7 +165,33 @@ color: #000000;
 
 /* card section ends */
 
+.flower-store{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 210px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 80px;
+}
 
+.store-details{
+    align-content: center;
+}
+
+.store-details h1{
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.store-details ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    opacity: 50%;
+    margin: 20px auto auto 40px;
+
+}
 
 
 
@@ -193,10 +222,14 @@ color: #000000;
 }
 
 .hero-sec{
-    max-width: 100%;
     flex-direction: column;
     
 }
+
+.hero-sec img{
+    width: 100%;
+}
+
 
 .hero-detail{
     order: 1;
@@ -213,9 +246,8 @@ color: #000000;
 }
 
 
-
 .card{
-    max-width: 100%;
+    width: 100%;
     /* display: none; */
     
 }
@@ -230,17 +262,21 @@ color: #000000;
     margin: 16px 28px 28px 28px;
 }
 
+.card-title p br{
+    display: none;
+}
 
 .products{
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px 5px;
-    max-width: 100%;
+    gap: 29px 5px;
+    width: 100%;
     /* margin: auto 15px; */
     
 }
 
 .add-to-cart{
-    padding: 15px 95px;
+    margin-top: 30px;
+    padding: 15px 55px;
     font-size: 12px;
 }
 
@@ -248,7 +284,9 @@ color: #000000;
     font-size: 16px;
 }
 
-
+.product-card img{
+    width: 90%;
+}
 
 
 
