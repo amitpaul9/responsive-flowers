@@ -200,59 +200,21 @@ color: #000000;
 }
 
 .badge-img{
-    height: 280px;
-    width: 280px;
     position: absolute;
     z-index: 1;
-    margin-top: -1000px;
+    margin-top: -695px;
+    margin-left: 360px;
 
+}
+
+.badge-img img{
+    height: 280px;
+    width: 280px;
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.50));
 }
 /* Flower store section end */
 
 /* Deals section start */
-
-.deal-txt{
-    margin-top: 133px;
-    text-align: center;
-}
-
-.deal-txt h1{
-    font-family: "Noto Serif", serif;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.deal-txt p{
-    font-size: 22px;
-    font-family: "Inter", sans-serif;
-    opacity: 50%;
-    margin: 16px auto 120px auto;
-    font-weight: 400;
-}
-
-.deal-cards{
-    max-width: 1140px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 30px;
-    
-}
-
-.deal-img-1{
-    grid-row-start: 1;
-}
-
-.deal-img-2{
-    grid-row-start: 2;
-}
-
-
-.deal-img-3{
-    grid-row: span 2 / span 2;
-}
-
-
 
 
 
@@ -396,7 +358,22 @@ color: #000000;
     display: none;
 }
 
+.deal-cardsP{
+    grid-template-columns: repeat(1, 1fr);
+}
 
+.card-3{
+    grid-row-start: 3;
+}
+
+.txt-3{
+    font-size: 20px;
+}
+
+.txt-3 a{
+    font-size: 16px;
+    margin-left: 0;
+}
 
 
 }
