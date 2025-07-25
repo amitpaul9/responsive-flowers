@@ -169,7 +169,6 @@ color: #000000;
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 210px;
-    /* margin-bottom: 300px; */
     display: flex;
     gap: 80px;
     
@@ -216,9 +215,206 @@ color: #000000;
 
 /* Deals section start */
 
+.deals{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    /* display: none; */
+}
 
+
+.deal-txt{
+    margin-top: 133px;
+    text-align: center;
+}
+
+.deal-txt h1{
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.deal-txt p{
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    opacity: 50%;
+    margin: 16px auto 120px auto;
+    font-weight: 400;
+}
+
+
+.deal-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 18px 25px;
+}
+
+
+.banner-1{
+    grid-row-start: 1;
+}
+
+.banner-2{
+    grid-row-start: 2;
+}
+
+.banner-3{
+    grid-row: span 2 / span 2;
+}
+
+
+.banner-info{
+    position: absolute;
+}
+
+.small-txt h2{
+    position: relative;
+    transform: translate(30%, -450%);
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.small-txt a{
+    position: relative;
+    margin-left: 50px;
+}
+
+
+.shop-now{
+    position: relative;
+    transform: translate(50%, -450%);
+}
+
+
+.large-txt{
+    position: absolute;
+    transform: translate(10%, -205%);
+     font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.large-txt a{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-left: 250px;
+}
+
+
+.banner-img img{
+    border-radius: 20px;
+    filter: brightness(60%);
+}
 
 /* Deals section end */
+
+
+/* Join us section start */
+
+.join-us{
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 533px;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.join-content{
+    text-align: center;
+    padding-top: 160px;
+}
+
+.join-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+    color: white;
+    margin-bottom: 22px;
+}
+
+
+.join-content form input::placeholder{
+    font-family: "Inter", sans-serif;
+    opacity: 50%;
+    font-size: 16px;
+    
+}
+
+
+.join-content form input{
+    padding: 22px 540px 20px 20px;
+    border: none;
+}
+
+
+.join-content form button{
+    background-color: #E95A08;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 19px 53px;
+    border: none;
+    transform: translate(-2%, 0);
+}
+
+/* Join us section end */
+
+/* Footer section start */
+.footer{
+    display: flex;
+    max-width: 1120px;
+    margin: 0 auto;
+    gap: 110px;
+    
+}
+
+.branding-sec .link-col-1 .link-col-2{
+    display: block;
+    
+}
+
+.footer-font ul li{
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.footer-font ul li a{
+    text-decoration: none;
+    
+}
+
+.footer-font ul li a:visited{
+    color: #6B7280;
+}
+
+
+.footer-font{
+    color: #6B7280;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.branding-sec p{
+    font-size: 22px;
+    margin-top: 16px;
+}
+
+.social-icon{
+    display: flex;
+    gap: 24px;
+}
+
+/* Footer section end */
+
+
+
 
 
 
@@ -324,7 +520,7 @@ color: #000000;
 .flower-store{
     flex-direction: column;
     gap: 18px;
-    margin-top: 41px;
+    margin: 41px 16px 133px 16px;
 }
 
 .store-img img{
@@ -342,38 +538,55 @@ color: #000000;
 
 }
 
-.deal-txt{
-    margin: 70px auto 30px auto ;
+
+.join-us{
+    width: 100%;
+    height: 276px;
+
 }
 
-.deal-txt h1{
-    font-size: 24px;
+.join-content{
+    padding-top: 70px;
 }
 
-.deal-txt p{
-    font-size: 14px;
-}
-
-.deal-txt br{
-    display: none;
-}
-
-.deal-cardsP{
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.card-3{
-    grid-row-start: 3;
-}
-
-.txt-3{
+.join-content h1{
     font-size: 20px;
 }
 
-.txt-3 a{
-    font-size: 16px;
-    margin-left: 0;
+.join-content form input{
+    padding: 18px 80px 15px 20px;
 }
 
+.join-content form button{
+    padding: 15px 12px;
+    transform: translate(-4%, 0);
+}
+
+.footer{
+    flex-direction: column;
+    gap: 0;
+    margin-left: 20px;
+}
+
+.branding-sec{
+    width: 100%;
+}
+
+.branding-sec p{
+    font-size: 16px;
+    margin-bottom: 27px;
+}
+
+.branding-sec p br{
+    display: hidden;
+}
+
+.link-col-2{
+    margin-bottom: 0;
+}
+
+.social-icon{
+    margin-bottom: 50px;
+}
 
 }
