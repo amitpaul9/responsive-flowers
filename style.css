@@ -219,7 +219,7 @@ color: #000000;
     max-width: 1140px;
     margin: 0 auto;
     margin-bottom: 120px;
-    /* display: none; */
+    display: none;
 }
 
 
@@ -264,12 +264,12 @@ color: #000000;
 
 
 .banner-info{
-    position: absolute;
+    position: relative;
 }
 
 .small-txt h2{
-    position: relative;
-    transform: translate(30%, -450%);
+    position: absolute;
+    transform: translate(40%, -500%);
     font-family: "Noto Serif", serif;
     font-size: 20px;
     font-weight: bold;
@@ -277,8 +277,12 @@ color: #000000;
 }
 
 .small-txt a{
-    position: relative;
-    margin-left: 50px;
+    position: absolute;
+    transform: translate(180%, -550%);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 
@@ -501,7 +505,7 @@ color: #000000;
 
 .add-to-cart{
     margin-top: 30px;
-    padding: 15px 55px;
+    padding: 15px 30px;
     font-size: 12px;
 }
 
@@ -588,5 +592,20 @@ color: #000000;
 .social-icon{
     margin-bottom: 50px;
 }
+
+.deal-container{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+
+.banner-info{
+    font-size: 20px;
+}
+
+.banner-info a{
+    font-size: 16px;
+}
+
+
 
 }
